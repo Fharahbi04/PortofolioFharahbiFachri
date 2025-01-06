@@ -1,0 +1,81 @@
+
+        body {
+            background-color: #121212;
+            color: #ffffff;
+        }
+        p{
+            color: #1a1a1a;
+        }
+
+        .navbar {
+            background-color: #1a1a1a;
+        }
+
+        .navbar-brand, .nav-link {
+            color: #ffffff !important;
+        }
+
+        .header {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #121212;
+        }
+
+        .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .header h1 {
+            color: #00b4d8;
+        }
+
+        .header p {
+            color: #ffffff;
+            max-width: 600px;
+            margin: 0 auto 20px;
+        }
+
+        .btn-custom {
+            border: 2px solid #00b4d8;
+            color: #00b4d8;
+            margin: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-custom:hover {
+            background-color: #00b4d8;
+            color: #ffffff;
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+            margin: 0 5px;
+            background:  #4a4f4f;
+            transition: all 0.3s ease;
+        }
+        .social-icons img:hover{
+            
+                background-color: #00b4d8;
+                color: #ffffff;
+            
+        }
+        .skill-logo {
+            max-width: 150px; /* Perbesar gambar default */
+            height: auto; /* Menjaga proporsi gambar */
+            transition: transform 0.3s ease-in-out; /* Animasi untuk hover */
+          }
+        
+          /* Efek hover untuk memperbesar gambar */
+          .skill-logo:hover {
+            transform: scale(1.1); /* Perbesar gambar 1.2x saat hover */
+          }
+        
+          /* Menambahkan margin di sekitar gambar */
+          .logo {
+            text-align: center; /* Pastikan gambar berada di tengah */
+          }
